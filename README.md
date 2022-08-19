@@ -2,7 +2,7 @@
 
 ---
 
-> If you ever have the need to run a Python at a specific time, or periodically. This might come handy.
+> If you ever have the need to run a Python function at a specific time, or periodically. This might come handy.
 
 ```py
 import asyncio
@@ -27,7 +27,7 @@ show_actual_runtime(name="call_now")
 show_current_runtime(name="call_now")
 
 show_actual_runtime.promise(name="call_at")
-show_current_runtime.promis(name="call_after")
+show_current_runtime.promise(name="call_after")
 
 loop.run_forever()
 ```
